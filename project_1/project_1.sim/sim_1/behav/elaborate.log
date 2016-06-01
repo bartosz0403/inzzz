@@ -1,0 +1,35 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto 4106a9aeaa9a4f2db615d763b1d00134 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port rx_cnt [/home/mistrz/Desktop/test_bench_usb/project_1/project_1.srcs/sources_1/imports/verilog/usb_pl.v:291]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/mistrz/Desktop/test_bench_usb/project_1/project_1.srcs/sources_1/imports/verilog/sync_fifo.v" Line 7. Module sync_fifo(D=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mistrz/Desktop/test_bench_usb/project_1/project_1.srcs/sources_1/imports/verilog/generic_dpram.v" Line 6. Module generic_dpram(aw=6,dw=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mistrz/Desktop/test_bench_usb/project_1/project_1.srcs/sources_1/imports/verilog/sync_fifo.v" Line 7. Module sync_fifo(D=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/mistrz/Desktop/test_bench_usb/project_1/project_1.srcs/sources_1/imports/verilog/generic_dpram.v" Line 6. Module generic_dpram(aw=6,dw=8) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.usb_utmi
+Compiling module xil_defaultlib.usb_crc5
+Compiling module xil_defaultlib.usb_crc16
+Compiling module xil_defaultlib.usb_pd
+Compiling module xil_defaultlib.usb_pa
+Compiling module xil_defaultlib.usb_fifo
+Compiling module xil_defaultlib.usb_dma
+Compiling module xil_defaultlib.usb_pe
+Compiling module xil_defaultlib.usb_pl
+Compiling module xil_defaultlib.usb_ctrl
+Compiling module xil_defaultlib.usb_descriptor
+Compiling module xil_defaultlib.sync_fifo(D=8)
+Compiling module xil_defaultlib.generic_dpram(aw=6,dw=8)
+Compiling module xil_defaultlib.generic_fifo_sc_a(aw=6,n=0)
+Compiling module xil_defaultlib.usb_core
+Compiling module xil_defaultlib.usb_apb
+Compiling module xil_defaultlib.usb_top
+Compiling module xil_defaultlib.apb_agent
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav

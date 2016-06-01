@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_fifo.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_crc5.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_crc16.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_pe.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_pd.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_pa.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_dma.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/generic_dpram.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_utmi.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_pl.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_descriptor.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_ctrl.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/sync_fifo.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/generic_fifo_sc_a.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_core.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_apb.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/usb_top.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/apb_agent.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+verilog xil_defaultlib  "../../../project_1.srcs/sources_1/imports/verilog/tb.v" --include "../../../project_1.srcs/sources_1/imports/verilog"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

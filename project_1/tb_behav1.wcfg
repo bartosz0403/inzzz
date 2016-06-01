@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="72700000001fs"></ZoomEndTime>
+      <Cursor1Time time="12399800000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="14" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u4/ep0_we">
+      <obj_property name="ElementShortName">ep0_we</obj_property>
+      <obj_property name="ObjectShortName">ep0_we</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u4/ep0_stat">
+      <obj_property name="ElementShortName">ep0_stat[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ep0_stat[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u4/ep0_size">
+      <obj_property name="ElementShortName">ep0_size[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep0_size[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u4/ep0_re">
+      <obj_property name="ElementShortName">ep0_re</obj_property>
+      <obj_property name="ObjectShortName">ep0_re</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u4/ep0_dout">
+      <obj_property name="ElementShortName">ep0_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep0_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u4/ep0_din">
+      <obj_property name="ElementShortName">ep0_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep0_din[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/tx_data_st">
+      <obj_property name="ElementShortName">tx_data_st[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_st[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u1/tx_data_st_o">
+      <obj_property name="ElementShortName">tx_data_st_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_st_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u1/u2/tx_dma_en_r1">
+      <obj_property name="ElementShortName">tx_dma_en_r1</obj_property>
+      <obj_property name="ObjectShortName">tx_dma_en_r1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u1/u2/tx_dma_en_r">
+      <obj_property name="ElementShortName">tx_dma_en_r</obj_property>
+      <obj_property name="ObjectShortName">tx_dma_en_r</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u1/u2/rd_next">
+      <obj_property name="ElementShortName">rd_next</obj_property>
+      <obj_property name="ObjectShortName">rd_next</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u1/u2/sizd_is_zero_d">
+      <obj_property name="ElementShortName">sizd_is_zero_d</obj_property>
+      <obj_property name="ObjectShortName">sizd_is_zero_d</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u1/u2/ep_empty_int">
+      <obj_property name="ElementShortName">ep_empty_int</obj_property>
+      <obj_property name="ObjectShortName">ep_empty_int</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u1/u2/send_data">
+      <obj_property name="ElementShortName">send_data</obj_property>
+      <obj_property name="ObjectShortName">send_data</obj_property>
+   </wvobject>
+</wave_config>

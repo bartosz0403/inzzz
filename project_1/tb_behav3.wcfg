@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1135353000000fs"></ZoomStartTime>
+      <ZoomEndTime time="1136348000001fs"></ZoomEndTime>
+      <Cursor1Time time="1135918000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="28" />
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/u_apb_agent/PWDATA">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/u_apb_agent/PRDATA">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/PWDATA">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/PRDATA">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/ep1_din">
+      <obj_property name="ElementShortName">ep1_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep1_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/ep1_dout">
+      <obj_property name="ElementShortName">ep1_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep1_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u0/RxValid">
+      <obj_property name="ElementShortName">RxValid</obj_property>
+      <obj_property name="ObjectShortName">RxValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u0/TxReady">
+      <obj_property name="ElementShortName">TxReady</obj_property>
+      <obj_property name="ObjectShortName">TxReady</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u0/DataOut">
+      <obj_property name="ElementShortName">DataOut[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataOut[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_core/u0/DataIn">
+      <obj_property name="ElementShortName">DataIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DataIn[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u0/rx_valid">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_core/u0/TxValid">
+      <obj_property name="ElementShortName">TxValid</obj_property>
+      <obj_property name="ObjectShortName">TxValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/PCLK">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/PRESETn">
+      <obj_property name="ElementShortName">PRESETn</obj_property>
+      <obj_property name="ObjectShortName">PRESETn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/PSEL">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/PENABLE">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/PADDR">
+      <obj_property name="ElementShortName">PADDR[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/PWRITE">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/PWDATA">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/PREADY">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/PRDATA">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/ep1_dout">
+      <obj_property name="ElementShortName">ep1_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep1_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/ep1_we">
+      <obj_property name="ElementShortName">ep1_we</obj_property>
+      <obj_property name="ObjectShortName">ep1_we</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/ep1_re">
+      <obj_property name="ElementShortName">ep1_re</obj_property>
+      <obj_property name="ObjectShortName">ep1_re</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/tb/dut/u_usb_apb/ep1_din">
+      <obj_property name="ElementShortName">ep1_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ep1_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/ep1_empty">
+      <obj_property name="ElementShortName">ep1_empty</obj_property>
+      <obj_property name="ObjectShortName">ep1_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/ep1_full">
+      <obj_property name="ElementShortName">ep1_full</obj_property>
+      <obj_property name="ObjectShortName">ep1_full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/tb/dut/u_usb_apb/reg_STROBE">
+      <obj_property name="ElementShortName">reg_STROBE</obj_property>
+      <obj_property name="ObjectShortName">reg_STROBE</obj_property>
+   </wvobject>
+</wave_config>
